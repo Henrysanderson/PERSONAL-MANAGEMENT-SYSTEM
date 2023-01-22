@@ -1,0 +1,40 @@
+@import "../settings/fonts";
+
+// NAVIGATION
+.nav {
+    display: flex;
+    font-size: $fs-regular;
+    justify-content: space-between;
+    padding: 0.5rem 1.25rem;
+    height: 2.5rem;
+    border-bottom: 0.0625rem #000 solid;
+    background-color: #fefeff;
+    
+    a {
+        text-decoration: none;
+        cursor: pointer;
+
+        &:hover {
+            color: beige;
+        }
+    }
+}
+
+// SEARCH BOX
+.search-box {
+    input {
+        border-radius: 1.875rem;
+        border: 0.0625rem solid;
+        height: 1.875rem;
+        padding-left: 1rem;
+        font-size: $fs-regular;
+    }
+    
+}
+
+// USER DETAILS
+.user .username a {
+    font-size: $fs-regular;
+    color: #000;
+    font-weight: 600;
+}

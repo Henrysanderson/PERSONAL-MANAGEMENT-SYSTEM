@@ -35,6 +35,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* A elements that don't have a class get default styles */
@@ -45,7 +46,8 @@ a:not([class]) {
 
 /* Make images easier to work with */
 img,
-picture {
+picture,
+svg {
   max-width: 100%;
   display: block;
 }
@@ -73,4 +75,34 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+.nav {
+  display: flex;
+  font-size: 16px;
+  justify-content: space-between;
+  padding: 0.5rem 1.25rem;
+  height: 2.5rem;
+  border-bottom: 0.0625rem #000 solid;
+  background-color: #fefeff;
+}
+.nav a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav a:hover {
+  color: beige;
+}
+
+.search-box input {
+  border-radius: 1.875rem;
+  border: 0.0625rem solid;
+  height: 1.875rem;
+  padding-left: 1rem;
+  font-size: 16px;
+}
+
+.user .username a {
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
 }/*# sourceMappingURL=styles.css.map */

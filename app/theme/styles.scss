@@ -4,4 +4,4 @@
 @use "objects";
 @use "settings";
 @use "tools";
-@use "trumps";
+@forward "trumps";
